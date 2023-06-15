@@ -7,6 +7,11 @@ body{
     margin:0;
     background-color: #33373E;
     width: 100%;
+    background-image: url(../src/assets/images/React-icon.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 130% 110%;
+    
 }
 
 nav{
@@ -38,6 +43,7 @@ nav{
 main{
     color: #fff;
     padding: 30px;
+    
 }
 
 .main-title{
@@ -58,4 +64,10 @@ main{
     padding-block: 8px;
     font-size: 16px;
     font-weight: 500;
+}
+
+.main-facts > li::marker {
+    /* content: '✝ '; */
+    font-size: 1.6em;
+  	color: #00D8FF;
 }
